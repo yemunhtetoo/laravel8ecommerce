@@ -117,7 +117,8 @@
 							</ul>
 						</div>
 					</div><!-- brand widget-->
-
+                    
+                    <!-- Price Filter -->
 					<div class="widget mercado-widget filter-widget price-filter">
 						<h2 class="widget-title">Price <span class="text-info">${{$min_price}} - ${{$max_price}}</span></h2>
 						<div class="widget-content">
