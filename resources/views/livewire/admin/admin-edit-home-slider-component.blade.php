@@ -21,28 +21,28 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Title</label>
                                     <div class="col-md-4">
-                                        <input class="text" placeholder="title" class="form-control input-md" wire:model="title"/>
+                                        <input type="text" placeholder="title" class="form-control input-md" wire:model="title"/>
                                     </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Subtitle</label>
                                     <div class="col-md-4">
-                                        <input class="text" placeholder="subtile" class="form-control input-md" wire:model="subtitle"/>
+                                        <input type="text" placeholder="subtile" class="form-control input-md" wire:model="subtitle"/>
                                     </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Price</label>
                                     <div class="col-md-4">
-                                        <input class="text" placeholder="Price" class="form-control input-md" wire:model="price" />
+                                        <input type="text" placeholder="Price" class="form-control input-md" wire:model="price" />
                                     </div>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Link</label>
                                     <div class="col-md-4">
-                                        <input class="text" placeholder="Link" class="form-control input-md" wire:model="link"/>
+                                        <input type="text" placeholder="Link" class="form-control input-md" wire:model="link"/>
                                     </div>
                             </div>
 

@@ -77,7 +77,7 @@
 			}
 			if($("select:not(.except-chosen)").length > 0){
 				$("select:not(.except-chosen)").each(function(){
-					$(this).select2();
+					$(this).chosen();
 				});
 			}
         },

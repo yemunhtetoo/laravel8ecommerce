@@ -124,7 +124,7 @@
                                        @foreach($categories as $category)
                                        <option value="{{$category->id}}">{{$category->name}}</option>
                                        @endforeach
-                                   @error('category_id') <p class="text-danger">{{$message}}</p> @enderror
+                                         @error('category_id') <p class="text-danger">{{$message}}</p> @enderror
                                    </select>
                                 </div>
                             </div>

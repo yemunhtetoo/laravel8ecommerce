@@ -35,7 +35,7 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label">No of Products</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="form-contorl input-md" wire:model="numberofproducts" />
+                                    <input type="text" class="form-control input-md" wire:model="numberofproducts" />
                                 </div>  
                             </div>
                             
