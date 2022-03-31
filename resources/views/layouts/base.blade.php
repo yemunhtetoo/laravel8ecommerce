@@ -488,7 +488,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.1/nouislider.min.js"></script>
-	
+	<script src="https://cdn.tiny.cloud/1/dqng24wo9am5srv92e6r30aju6azbvo4uw7bugq80lnofv96/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
 	@livewireScripts
 
 	@stack('scripts')
