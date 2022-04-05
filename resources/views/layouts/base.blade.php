@@ -98,6 +98,12 @@
                                                     <a title="Sales" href="{{route('admin.sale')}}">Product Sales Setting</a>
                                                 </li>
 												<li class="menu-item" >
+                                                    <a title="Sales" href="{{route('admin.coupons')}}">Coupons Setting</a>
+                                                </li>
+												<li class="menu-item" >
+                                                    <a title="Orders" href="{{route('admin.orders')}}">All Orders</a>
+                                                </li>
+												<li class="menu-item" >
 													<a title="Logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
 												</li>
                                                 <form id="logout-form" method="POST" action="{{ route('logout')}}">
@@ -111,6 +117,9 @@
                                             <ul class="submenu curency" >
                                                 <li class="menu-item" >
                                                     <a title="Dashboard" href="{{route('user.dashboard')}}">Dashboard</a>
+                                                </li>
+												<li class="menu-item" >
+                                                    <a title="Orders" href="{{route('user.orders')}}">Orders</a>
                                                 </li>
                                                 <li class="menu-item" >
 													<a title="Logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
