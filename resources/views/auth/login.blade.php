@@ -1,6 +1,4 @@
-
-<x-guest-layout>
-    <!--main area-->
+<x-base-layout>
 	<main id="main" class="main-site left-sidebar">
 
         <div class="container">
@@ -49,4 +47,4 @@
 
         </main>
         <!--main area-->
-</x-guest-layout>
+</x-base-layout>
